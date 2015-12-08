@@ -1,0 +1,203 @@
+{
+  "kind": "discovery#restDescription",
+  "discoveryVersion": "v1",
+  "id": "Phidget888",
+  "name": "Phidget888",
+  "if.category": "Internet of Things",  
+  "version": "1.0",
+  "protocol": "dll",
+  "baseUrl": null,
+  "basePath": "Phidget888",
+  "auth": {},
+  "dependencies": [
+    "Phidget888.dll",
+    "Phidget21.NET.dll"
+  ],
+   "icons": {
+    "x32": "phidget_icon.png"
+  },
+  "schemas": {
+    "Phidget888": {
+      "id": "Phidget888",
+      "type": "object",
+      "properties": {
+        "Input_0": {
+          "title": "Logical Input 0",
+          "type": "boolean",
+		  "readonly": true          
+        },
+        "Input_1": {
+          "title": "Logical Input 1",
+          "type": "boolean",
+		  "readonly": true
+        },
+        "Input_2": {
+          "title": "Logical Input 2",
+          "type": "boolean",
+		  "readonly": true
+        },
+        "Input_3": {
+          "title": "Logical Input 3",
+          "type": "boolean",
+		  "readonly": true
+        },
+        "Input_4": {
+          "title": "Logical Input 4",
+          "type": "boolean",
+		  "readonly": true
+        },
+        "Input_5": {
+          "title": "Logical Input 5",
+          "type": "boolean",
+          "readonly": true
+        },
+        "Input_6": {
+          "title": "Logical Input 6",
+          "type": "boolean",
+          "readonly": true
+        },
+        "Input_7": {
+          "title": "Logical Input 7",
+          "type": "boolean",
+          "readonly": true
+        },
+        "AnalogSensor_0": {
+          "title": "Analog Sensor 0",
+          "type": "integer",
+		  "readonly": true          
+        },
+        "AnalogSensor_1": {
+          "title": "Analog Sensor 1",
+          "type": "integer",
+		  "readonly": true          
+        },
+        "AnalogSensor_2": {
+          "title": "Analog Sensor 2",
+          "type": "integer",
+		  "readonly": true          
+        },
+        "AnalogSensor_3": {
+          "title": "Analog Sensor 3",
+          "type": "integer",
+		  "readonly": true          
+        },
+        "AnalogSensor_4": {
+          "title": "Analog Sensor 4",
+          "type": "integer",
+		  "readonly": true         
+        },
+        "AnalogSensor_5": {
+          "title": "Analog Sensor 5",
+          "type": "integer",
+		  "readonly": true          
+        },
+        "AnalogSensor_6": {
+          "title": "Analog Sensor 6",
+          "type": "integer",
+		  "readonly": true          
+        },
+        "AnalogSensor_7": {
+          "title": "Analog Sensor 7",
+          "type": "integer",
+		  "readonly": true        
+        }
+      }
+    }
+  },
+  "resources": {
+    "Phidget888": {
+      "title": "Phidget 8-8-8",
+      "isInterfaceAsset": true,
+	  "if.templateDesignAccelerator": "Template_for_phidget.dax",
+      "methods": {
+        "SetOutput": {
+          "title": "Set logical output",
+          "description": "Set logical output with a true or false value",
+		  "parameters": {
+            "outputIndex_": {
+              "type": "integer",
+              "title": "Output index",
+              "description": "Output index between 0 and 7",              
+              "required": true             
+            },
+			"bvalue_": {
+              "type": "boolean",
+              "title": "Value",
+              "description": "True or false value",              
+              "required": true              
+            }
+		  },
+          "response": {
+            "type": "null"
+          }
+        }
+      },
+      "events": {
+        "Button0Pressed": {
+          "title": "Button 0 pressed",
+		  "if.category": "Phidget/Button 0"
+        },
+        "Button0Released": {
+          "title": "Button 0 released",
+		  "if.category": "Phidget/Button 0"
+        },
+        "Button1Pressed": {
+          "title": "Button 1 pressed",
+		  "if.category": "Phidget/Button 1"
+        },
+        "Button1Released": {
+          "title": "Button 1 released",
+		  "if.category": "Phidget/Button 1"
+        },
+        "Button2Pressed": {
+          "title": "Button 2 pressed",
+		  "if.category": "Phidget/Button 2"
+        },
+        "Button2Released": {
+          "title": "Button 2 released",
+		  "if.category": "Phidget/Button 2"
+        },
+        "Button3Pressed": {
+          "title": "Button 3 pressed",
+		  "if.category": "Phidget/Button 3"
+        },
+        "Button3Released": {
+          "title": "Button 3 released",
+		  "if.category": "Phidget/Button 3"
+        },
+        "Button4Pressed": {
+          "title": "Button 4 pressed",
+		  "if.category": "Phidget/Button 4"
+        },
+        "Button4Released": {
+          "title": "Button 4 released",
+		  "if.category": "Phidget/Button 4"
+        },
+        "Button5Pressed": {
+          "title": "Button 5 pressed",
+		  "if.category": "Phidget/Button 5"
+        },
+        "Button5Released": {
+          "title": "Button 5 released",
+		  "if.category": "Phidget/Button 5"
+        },
+        "Button6Pressed": {
+          "title": "Button 6 pressed",
+		  "if.category": "Phidget/Button 6"
+        },
+        "Button6Released": {
+          "title": "Button 6 released",
+		  "if.category": "Phidget/Button 6"
+        },
+        "Button7Pressed": {
+          "title": "Button 7 pressed",
+		  "if.category": "Phidget/Button 7"
+        },
+        "Button7Released": {
+          "title": "Button 7 released",
+		  "if.category": "Phidget/Button 7"
+        }
+      }
+    }
+  }
+}

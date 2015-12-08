@@ -1,0 +1,17 @@
+C:\Work\Projects\AVV\SAP\Bootstrap\Phidget\Phidget\bin\Debug\Phidget888.dll
+C:\Work\Projects\AVV\SAP\Bootstrap\Phidget\Phidget\bin\Debug\Phidget888.pdb
+C:\Work\Projects\AVV\SAP\Bootstrap\Phidget\Phidget\obj\Debug\Phidget888.csprojResolveAssemblyReference.cache
+C:\Work\Projects\AVV\SAP\Bootstrap\Phidget\Phidget\obj\Debug\Phidget888.dll
+C:\Work\Projects\AVV\SAP\Bootstrap\Phidget\Phidget\obj\Debug\Phidget888.pdb
+C:\WorkGIT\IntuiFace\IntuiFace\InterfaceAssets\CSharp\Phidget\Phidget888\bin\Debug\Phidget888.dll
+C:\WorkGIT\IntuiFace\IntuiFace\InterfaceAssets\CSharp\Phidget\Phidget888\bin\Debug\Phidget888.pdb
+C:\WorkGIT\IntuiFace\IntuiFace\InterfaceAssets\CSharp\Phidget\Phidget888\obj\Debug\Phidget888.csprojResolveAssemblyReference.cache
+C:\WorkGIT\IntuiFace\IntuiFace\InterfaceAssets\CSharp\Phidget\Phidget888\obj\Debug\Phidget888.dll
+C:\WorkGIT\IntuiFace\IntuiFace\InterfaceAssets\CSharp\Phidget\Phidget888\obj\Debug\Phidget888.pdb
+C:\WorkGIT\IntuiFace\IntuiFace\InterfaceAssets\CSharp\Phidget\Phidget888\bin\Debug\Phidget21.NET.dll
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\bin\Debug\Phidget888.dll
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\bin\Debug\Phidget888.pdb
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\bin\Debug\Phidget21.NET.dll
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\obj\Debug\Phidget888.csprojResolveAssemblyReference.cache
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\obj\Debug\Phidget888.dll
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\obj\Debug\Phidget888.pdb

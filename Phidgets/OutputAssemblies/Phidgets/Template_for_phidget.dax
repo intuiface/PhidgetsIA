@@ -1,0 +1,1193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mashup ApiNumber="12" Name="Template_for_phidget" Description="" Category="Phidget" Author="IntuiLab S.A" AuthorId="IntuiLab" Icon="Template_for_phidget.png" OriginalLocalPath=".\Local" OriginalDataPath=".\Data" OriginalProcessID="11432">
+  <MashupSpace ContextAlias="CURRENT_SPACE" Name="mashup_root_0" OriginalAbsoluteVisualPath="player://visuals/Project 58/Space">
+    <Space Name="Space" AutoReset="false" BackgroundColor="#FF000000" />
+  </MashupSpace>
+  <MashupCollection Name="mashup_root_1" OriginalAbsoluteVisualPath="player://visuals/Project 58/Space/Middle/Default_template_for_Phidget-8-8-8" CreateAsCollectionSibling="true">
+    <Collection Name="Default_template_for_Phidget-8-8-8" Visual="Group" Container="Static">
+      <Properties>
+        <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+        <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+        <Property Type="Container" Name="Width"><![CDATA[value:625]]></Property>
+        <Property Type="Visual" Name="InitialWidth"><![CDATA[value:625]]></Property>
+        <Property Type="Container" Name="Height"><![CDATA[value:525]]></Property>
+        <Property Type="Visual" Name="InitialHeight"><![CDATA[value:525]]></Property>
+        <Property Type="Container" Name="X"><![CDATA[value:478]]></Property>
+        <Property Type="Container" Name="Y"><![CDATA[value:416]]></Property>
+        <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+      </Properties>
+      <Asset Name="Background" Visual="DefaultRectangle" Style="" Container="No resize" ContainerStyle="" Domain="value:Rectangle">
+        <Properties>
+          <Property Type="Visual" Name="BorderThickness"><![CDATA[value:0]]></Property>
+          <Property Type="Visual" Name="BorderColor"><![CDATA[value:#00000000]]></Property>
+          <Property Type="Visual" Name="CornerRadius"><![CDATA[value:5]]></Property>
+          <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Door Bell/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+          <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Door Bell/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+          <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#D9D0D0D0]]></Property>
+          <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+          <Property Type="Container" Name="Width"><![CDATA[value:621]]></Property>
+          <Property Type="Container" Name="Height"><![CDATA[value:521]]></Property>
+          <Property Type="Container" Name="X"><![CDATA[value:310]]></Property>
+          <Property Type="Container" Name="Y"><![CDATA[value:260]]></Property>
+          <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+        </Properties>
+      </Asset>
+      <Asset Name="LOGICAL INPUTS" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+        <Properties>
+          <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+          <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+          <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+          <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+          <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+          <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+          <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+          <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+          <Property Type="Container" Name="Width"><![CDATA[value:141]]></Property>
+          <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+          <Property Type="Container" Name="X"><![CDATA[value:111]]></Property>
+          <Property Type="Container" Name="Y"><![CDATA[value:30]]></Property>
+          <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          <Property Type="Domain" Name="Text"><![CDATA[value:LOGICAL INPUTS]]></Property>
+          <Property Type="Visual" Name="Alignment"><![CDATA[value:Center]]></Property>
+        </Properties>
+      </Asset>
+      <Asset Name="ANALOG INPUTS" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+        <Properties>
+          <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+          <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+          <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+          <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+          <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+          <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+          <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+          <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+          <Property Type="Domain" Name="Text"><![CDATA[value:ANALOG INPUTS]]></Property>
+          <Property Type="Visual" Name="Alignment"><![CDATA[value:Center]]></Property>
+          <Property Type="Container" Name="Width"><![CDATA[value:141]]></Property>
+          <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+          <Property Type="Container" Name="X"><![CDATA[value:336]]></Property>
+          <Property Type="Container" Name="Y"><![CDATA[value:30]]></Property>
+          <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+        </Properties>
+      </Asset>
+      <Asset Name="LOGICAL OUTPUTS" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+        <Properties>
+          <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+          <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+          <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+          <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+          <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+          <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+          <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+          <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+          <Property Type="Domain" Name="Text"><![CDATA[value:LOGICAL OUTPUTS]]></Property>
+          <Property Type="Visual" Name="Alignment"><![CDATA[value:Center]]></Property>
+          <Property Type="Container" Name="Width"><![CDATA[value:174]]></Property>
+          <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+          <Property Type="Container" Name="X"><![CDATA[value:535]]></Property>
+          <Property Type="Container" Name="Y"><![CDATA[value:30]]></Property>
+          <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+        </Properties>
+      </Asset>
+      <Collection Name="Logical Input Group" Visual="Group" Container="No resize" ContainerStyle="">
+        <Properties>
+          <Property Type="Container" Name="Width"><![CDATA[value:138]]></Property>
+          <Property Type="Visual" Name="InitialWidth"><![CDATA[value:138]]></Property>
+          <Property Type="Container" Name="Height"><![CDATA[value:430]]></Property>
+          <Property Type="Visual" Name="InitialHeight"><![CDATA[value:430]]></Property>
+          <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          <Property Type="Container" Name="X"><![CDATA[value:111]]></Property>
+          <Property Type="Container" Name="Y"><![CDATA[value:276]]></Property>
+        </Properties>
+        <Asset Name="Input 0" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Input 0]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:18]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="GrayCircle 0" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#4C333333]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:18]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="BlueCircleFeedback 0" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:1]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:24]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:24]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FF009DDF]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF004663]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[mashup://externals/Phidget%208-8-8/Input_0]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:18]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Input 1" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Input 1]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:74]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="GrayCircle 1" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#4C333333]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:74]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="BlueCircleFeedback 1" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:1]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:24]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:24]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FF009DDF]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF004663]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[mashup://externals/Phidget%208-8-8/Input_1]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:74]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Input 2" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Input 2]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:131]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="GrayCircle 2" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#4C333333]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:131]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="BlueCircleFeedback 2" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:1]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:24]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:24]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FF009DDF]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF004663]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[mashup://externals/Phidget%208-8-8/Input_2]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:131]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Input 3" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Input 3]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:187]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="GrayCircle 3" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#4C333333]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:187]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="BlueCircleFeedback 3" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:1]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:24]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:24]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FF009DDF]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF004663]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[mashup://externals/Phidget%208-8-8/Input_3]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:187]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Input 4" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Input 4]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:243]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="GrayCircle 4" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#4C333333]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:243]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="BlueCircleFeedback 4" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:1]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:24]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:24]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FF009DDF]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF004663]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[mashup://externals/Phidget%208-8-8/Input_4]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:243]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Input 5" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Input 5]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:299]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="GrayCircle 5" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#4C333333]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:299]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="BlueCircleFeedback 5" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:1]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:24]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:24]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FF009DDF]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF004663]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[mashup://externals/Phidget%208-8-8/Input_5]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:299]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Input 6" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Input 6]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:356]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="GrayCircle 6" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#4C333333]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:356]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="BlueCircleFeedback 6" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:1]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:24]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:24]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FF009DDF]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF004663]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[mashup://externals/Phidget%208-8-8/Input_6]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:356]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Input 7" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Input 7]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:412]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="GrayCircle 7" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#4C333333]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:412]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="BlueCircleFeedback 7" Visual="DefaultEllipse" Style="" Container="No resize" ContainerStyle="" Domain="value:Ellipse">
+          <Properties>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[file:///C:/Users/Seb Meunier/Documents/IntuiFace/Ninja DA Builder/Files/InterfaceAssets/Ninja Blocks Motion Sensor/Data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedWidth"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="MinimizedHeight"><![CDATA[value:50]]></Property>
+            <Property Type="Container" Name="DisplayButtonsRadius"><![CDATA[value:19]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="BorderThickness"><![CDATA[value:1]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:24]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:24]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FF009DDF]]></Property>
+            <Property Type="Visual" Name="BorderColor"><![CDATA[value:#FF004663]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[mashup://externals/Phidget%208-8-8/Input_7]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:120]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:412]]></Property>
+          </Properties>
+        </Asset>
+      </Collection>
+      <Collection Name="Analog Input Group" Visual="Group" Container="No resize" ContainerStyle="">
+        <Properties>
+          <Property Type="Container" Name="Width"><![CDATA[value:138]]></Property>
+          <Property Type="Visual" Name="InitialWidth"><![CDATA[value:138]]></Property>
+          <Property Type="Container" Name="Height"><![CDATA[value:430]]></Property>
+          <Property Type="Visual" Name="InitialHeight"><![CDATA[value:430]]></Property>
+          <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          <Property Type="Container" Name="X"><![CDATA[value:336]]></Property>
+          <Property Type="Container" Name="Y"><![CDATA[value:276]]></Property>
+        </Properties>
+        <Asset Name="Sensor 0" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:18]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Sensor 0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor 1" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:74]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Sensor 1]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor 2" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:131]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Sensor 2]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor 3" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:187]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Sensor 3]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor 4" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:243]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Sensor 4]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor 5" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:299]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Sensor 5]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor 6" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:356]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Sensor 6]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor 7" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:True]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:80]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:40]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:412]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[value:Sensor 7]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor Value 0" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:False]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[mashup://externals/Phidget%208-8-8/AnalogSensor_0]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:38]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:116]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:18]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor Value 1" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:False]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:38]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:74]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:116]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[mashup://externals/Phidget%208-8-8/AnalogSensor_1]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor Value 2" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:False]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:38]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:131]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:116]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[mashup://externals/Phidget%208-8-8/AnalogSensor_2]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor Value 3" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:False]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:38]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:187]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:116]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[mashup://externals/Phidget%208-8-8/AnalogSensor_3]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor Value 4" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:False]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:38]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:243]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:116]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[mashup://externals/Phidget%208-8-8/AnalogSensor_4]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor Value 5" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:False]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:38]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:299]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:116]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[mashup://externals/Phidget%208-8-8/AnalogSensor_5]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor Value 6" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:False]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:38]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:356]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:116]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[mashup://externals/Phidget%208-8-8/AnalogSensor_6]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Sensor Value 7" Visual="DefaultText" Style="" Container="Scale" ContainerStyle="" Domain="value:Text">
+          <Properties>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF333333]]></Property>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Verdana]]></Property>
+            <Property Type="Visual" Name="VerticalAlignment"><![CDATA[value:Center]]></Property>
+            <Property Type="Container" Name="IsVisible"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Italic"><![CDATA[value:False]]></Property>
+            <Property Type="Visual" Name="Alignment"><![CDATA[value:Left]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="Bold"><![CDATA[value:False]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:38]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:412]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:116]]></Property>
+            <Property Type="Domain" Name="Text"><![CDATA[mashup://externals/Phidget%208-8-8/AnalogSensor_7]]></Property>
+          </Properties>
+        </Asset>
+      </Collection>
+      <Collection Name="Logical Output Group" Visual="Group" Container="No resize" ContainerStyle="">
+        <Properties>
+          <Property Type="Container" Name="Width"><![CDATA[value:103]]></Property>
+          <Property Type="Visual" Name="InitialWidth"><![CDATA[value:103]]></Property>
+          <Property Type="Container" Name="Height"><![CDATA[value:435]]></Property>
+          <Property Type="Visual" Name="InitialHeight"><![CDATA[value:435]]></Property>
+          <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          <Property Type="Container" Name="X"><![CDATA[value:535]]></Property>
+          <Property Type="Container" Name="Y"><![CDATA[value:276]]></Property>
+        </Properties>
+        <Asset Name="Output 0" Visual="Button" Style="Simple button" Container="No resize" ContainerStyle="" Domain="value:VisibleTrigger">
+          <Attachments>
+            <EventTrigger EventType="Visual" EventName="Pressed">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:0" />
+                <ServiceValueParameter ParamName="bvalue_" Value="value:True" />
+              </InvokeService>
+            </EventTrigger>
+            <EventTrigger EventType="Visual" EventName="Released">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:0" />
+                <ServiceValueParameter ParamName="bvalue_" Value="value:False" />
+              </InvokeService>
+            </EventTrigger>
+          </Attachments>
+          <Properties>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Segoe UI]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FFFAFAFA]]></Property>
+            <Property Type="Visual" Name="Radius"><![CDATA[value:5]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="PressedVeilColor"><![CDATA[value:#7F000000]]></Property>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Visual" Name="OutlineColor"><![CDATA[value:#FFB2B2B2]]></Property>
+            <Property Type="Visual" Name="Text"><![CDATA[value:Output 0]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:103]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:52]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:18]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Output 1" Visual="Button" Style="Simple button" Container="No resize" ContainerStyle="" Domain="value:VisibleTrigger">
+          <Attachments>
+            <EventTrigger EventType="Visual" EventName="Pressed">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:True" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:1" />
+              </InvokeService>
+            </EventTrigger>
+            <EventTrigger EventType="Visual" EventName="Released">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:False" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:1" />
+              </InvokeService>
+            </EventTrigger>
+          </Attachments>
+          <Properties>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Segoe UI]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FFFAFAFA]]></Property>
+            <Property Type="Visual" Name="Radius"><![CDATA[value:5]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="PressedVeilColor"><![CDATA[value:#7F000000]]></Property>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Visual" Name="OutlineColor"><![CDATA[value:#FFB2B2B2]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Visual" Name="Text"><![CDATA[value:Output 1]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:103]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:52]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:74]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Output 2" Visual="Button" Style="Simple button" Container="No resize" ContainerStyle="" Domain="value:VisibleTrigger">
+          <Attachments>
+            <EventTrigger EventType="Visual" EventName="Pressed">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:True" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:2" />
+              </InvokeService>
+            </EventTrigger>
+            <EventTrigger EventType="Visual" EventName="Released">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:False" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:2" />
+              </InvokeService>
+            </EventTrigger>
+          </Attachments>
+          <Properties>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Segoe UI]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FFFAFAFA]]></Property>
+            <Property Type="Visual" Name="Radius"><![CDATA[value:5]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="PressedVeilColor"><![CDATA[value:#7F000000]]></Property>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Visual" Name="OutlineColor"><![CDATA[value:#FFB2B2B2]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:103]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:52]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:132]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Text"><![CDATA[value:Output 2]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Output 3" Visual="Button" Style="Simple button" Container="No resize" ContainerStyle="" Domain="value:VisibleTrigger">
+          <Attachments>
+            <EventTrigger EventType="Visual" EventName="Pressed">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:True" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:3" />
+              </InvokeService>
+            </EventTrigger>
+            <EventTrigger EventType="Visual" EventName="Released">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:False" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:3" />
+              </InvokeService>
+            </EventTrigger>
+          </Attachments>
+          <Properties>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Segoe UI]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FFFAFAFA]]></Property>
+            <Property Type="Visual" Name="Radius"><![CDATA[value:5]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="PressedVeilColor"><![CDATA[value:#7F000000]]></Property>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Visual" Name="OutlineColor"><![CDATA[value:#FFB2B2B2]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:103]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:52]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:188]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Text"><![CDATA[value:Output 3]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Output 4" Visual="Button" Style="Simple button" Container="No resize" ContainerStyle="" Domain="value:VisibleTrigger">
+          <Attachments>
+            <EventTrigger EventType="Visual" EventName="Pressed">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:True" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:4" />
+              </InvokeService>
+            </EventTrigger>
+            <EventTrigger EventType="Visual" EventName="Released">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:False" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:4" />
+              </InvokeService>
+            </EventTrigger>
+          </Attachments>
+          <Properties>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Segoe UI]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FFFAFAFA]]></Property>
+            <Property Type="Visual" Name="Radius"><![CDATA[value:5]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="PressedVeilColor"><![CDATA[value:#7F000000]]></Property>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Visual" Name="OutlineColor"><![CDATA[value:#FFB2B2B2]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:103]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:52]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:246]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Text"><![CDATA[value:Output 4]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Output 5" Visual="Button" Style="Simple button" Container="No resize" ContainerStyle="" Domain="value:VisibleTrigger">
+          <Attachments>
+            <EventTrigger EventType="Visual" EventName="Pressed">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:True" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:5" />
+              </InvokeService>
+            </EventTrigger>
+            <EventTrigger EventType="Visual" EventName="Released">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:False" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:5" />
+              </InvokeService>
+            </EventTrigger>
+          </Attachments>
+          <Properties>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Segoe UI]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FFFAFAFA]]></Property>
+            <Property Type="Visual" Name="Radius"><![CDATA[value:5]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="PressedVeilColor"><![CDATA[value:#7F000000]]></Property>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Visual" Name="OutlineColor"><![CDATA[value:#FFB2B2B2]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:103]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:52]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:302]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Text"><![CDATA[value:Output 5]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Output 6" Visual="Button" Style="Simple button" Container="No resize" ContainerStyle="" Domain="value:VisibleTrigger">
+          <Attachments>
+            <EventTrigger EventType="Visual" EventName="Pressed">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:True" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:6" />
+              </InvokeService>
+            </EventTrigger>
+            <EventTrigger EventType="Visual" EventName="Released">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:False" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:6" />
+              </InvokeService>
+            </EventTrigger>
+          </Attachments>
+          <Properties>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Segoe UI]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FFFAFAFA]]></Property>
+            <Property Type="Visual" Name="Radius"><![CDATA[value:5]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="PressedVeilColor"><![CDATA[value:#7F000000]]></Property>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Visual" Name="OutlineColor"><![CDATA[value:#FFB2B2B2]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:103]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:52]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:360]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Text"><![CDATA[value:Output 6]]></Property>
+          </Properties>
+        </Asset>
+        <Asset Name="Output 7" Visual="Button" Style="Simple button" Container="No resize" ContainerStyle="" Domain="value:VisibleTrigger">
+          <Attachments>
+            <EventTrigger EventType="Visual" EventName="Pressed">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:True" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:7" />
+              </InvokeService>
+            </EventTrigger>
+            <EventTrigger EventType="Visual" EventName="Released">
+              <InvokeService Target="mashup://externals/Phidget%208-8-8/" Type="Domain" Name="SetOutput" Delay="value:0">
+                <ServiceValueParameter ParamName="bvalue_" Value="value:False" />
+                <ServiceValueParameter ParamName="outputIndex_" Value="value:7" />
+              </InvokeService>
+            </EventTrigger>
+          </Attachments>
+          <Properties>
+            <Property Type="Visual" Name="Font"><![CDATA[value:Segoe UI]]></Property>
+            <Property Type="Container" Name="MinimizedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Container" Name="MinimizedPressedImage"><![CDATA[player://data/DefaultAssets/DefaultMinimized.png]]></Property>
+            <Property Type="Visual" Name="BackgroundColor"><![CDATA[value:#FFFAFAFA]]></Property>
+            <Property Type="Visual" Name="Radius"><![CDATA[value:5]]></Property>
+            <Property Type="Visual" Name="Flat"><![CDATA[value:True]]></Property>
+            <Property Type="Visual" Name="PressedVeilColor"><![CDATA[value:#7F000000]]></Property>
+            <Property Type="Visual" Name="FontColor"><![CDATA[value:#FF000000]]></Property>
+            <Property Type="Visual" Name="OutlineColor"><![CDATA[value:#FFB2B2B2]]></Property>
+            <Property Type="Visual" Name="FontSize"><![CDATA[value:14]]></Property>
+            <Property Type="Container" Name="Width"><![CDATA[value:103]]></Property>
+            <Property Type="Container" Name="Height"><![CDATA[value:36]]></Property>
+            <Property Type="Container" Name="X"><![CDATA[value:52]]></Property>
+            <Property Type="Container" Name="Y"><![CDATA[value:416]]></Property>
+            <Property Type="Container" Name="Orientation"><![CDATA[value:0]]></Property>
+            <Property Type="Visual" Name="Text"><![CDATA[value:Output 7]]></Property>
+          </Properties>
+        </Asset>
+      </Collection>
+    </Collection>
+  </MashupCollection>
+  <MashupExternalAsset ContextAlias="ASSOCIATED_IA">
+    <ExternalAsset Name="Phidget 8-8-8" DescriptorPath="player://data/InterfaceAssets/Phidget888/Phidget888.ifd" ExternalAssetName="Phidget888">
+      <Dependencies>
+        <Dependency URI="player://data/InterfaceAssets/Phidget888/Phidget888.ifd" Length="5454" LastModificationDate="2015-05-05T12:56:03.539738Z" />
+        <Dependency URI="player://data/InterfaceAssets/Phidget888/Phidget888.dll" Length="15360" LastModificationDate="2015-05-05T12:52:26.8973425Z" />
+        <Dependency URI="player://data/InterfaceAssets/Phidget888/Phidget21.NET.dll" Length="142848" LastModificationDate="2015-03-26T10:00:06Z" />
+        <Dependency URI="player://data/InterfaceAssets/Phidget888/phidget_icon.png" Length="3746" LastModificationDate="2015-05-05T10:17:12.3797466Z" />
+      </Dependencies>
+    </ExternalAsset>
+  </MashupExternalAsset>
+</Mashup>

@@ -1,0 +1,6 @@
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\bin\Release\Phidget888.dll
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\bin\Release\Phidget888.pdb
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\bin\Release\Phidget21.NET.dll
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\obj\Release\Phidget888.dll
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\obj\Release\Phidget888.pdb
+C:\WorkGIT\GitHub-Phidgets\Phidgets\Phidget888\obj\Release\Phidget888.csprojResolveAssemblyReference.cache

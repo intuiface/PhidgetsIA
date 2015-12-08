@@ -1,0 +1,10 @@
+D:\DevWPF\IntuiFace\trunk\source\InterfaceAssets\Phidget\Phidget\bin\Debug\Phidget.dll
+D:\DevWPF\IntuiFace\trunk\source\InterfaceAssets\Phidget\Phidget\bin\Debug\Phidget.pdb
+D:\DevWPF\IntuiFace\trunk\source\InterfaceAssets\Phidget\Phidget\obj\Debug\ResolveAssemblyReference.cache
+D:\DevWPF\IntuiFace\trunk\source\InterfaceAssets\Phidget\Phidget\obj\Debug\Phidget.dll
+D:\DevWPF\IntuiFace\trunk\source\InterfaceAssets\Phidget\Phidget\obj\Debug\Phidget.pdb
+D:\DevWPF\IntuiFace\trunk\source\InterfaceAssets\Phidget\Phidget\bin\Debug\Phidget21.NET.dll
+C:\Work\Projects\AVV\SAP\Bootstrap\Phidget\Phidget\bin\Debug\Phidget.dll
+C:\Work\Projects\AVV\SAP\Bootstrap\Phidget\Phidget\bin\Debug\Phidget.pdb
+C:\Work\Projects\AVV\SAP\Bootstrap\Phidget\Phidget\obj\Debug\Phidget.dll
+C:\Work\Projects\AVV\SAP\Bootstrap\Phidget\Phidget\obj\Debug\Phidget.pdb
