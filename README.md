@@ -3,7 +3,7 @@
 This project contains Phidgets Interface Asset for IntuiFace Player & IntuiFace Composer.
 
 The [Phidgets](http://www.phidgets.com//) Interface Asset enable you to communicate with Phidgets sensors and controllers from an IntuiFace experience.
-This Interface Asset was developped to communicate with an [8/8/8 Interface Kit](http://www.phidgets.com/products.php?category=0&product_id=1018_2), meaning it handles:
+This Interface Asset was developed to communicate with an [8/8/8 Interface Kit](http://www.phidgets.com/products.php?category=0&product_id=1018_2), meaning it handles:
 * 8 Logical inputs (ex: a button)
 * 8 Analog inputs (ex: distance sensor)
 * 8 Logical outputs (ex: a LED)
