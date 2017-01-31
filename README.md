@@ -17,6 +17,17 @@ For more information, check the online documentation for [using Phidgets within 
 
 ![Phidgets Default Design Accelerator](Screenshots/Phidget-DA.jpg "Phidgets Design Accelerator" "width:350px")
 
+# How to use Phidgets Interface Assets?
+
+To be able to add Phidgets Interface Assets in IntuiFace Composer, follow these steps: 
+* Close all **IntuiFace Composer** running instances. 
+* Download the [latest released package here](https://github.com/intuilab/PhidgetsIA/releases)
+* Extract the archive and copy the **Phidgets** folder to the path "[Drive]:\Users\\[UserName]\Documents\IntuiFace\Interface Assets",
+* Launch **IntuiFace Composer**,
+* **Add an Interface Asset** and when you enter "Phidget" in the search bar, you can see the **Phidget 8-8-8** Interface Asset.
+
+See more information on our support webpage: [using Phidgets within IntuiFace](http://support.intuilab.com/kb/a-quick-overview/using-phidgets-within-intuiface)
+
 # How to build this project?
 
 **PREREQUISITES**: you must have Visual Studio 2010 and .NET 4 installed.
@@ -28,16 +39,7 @@ To build this project, follow these steps:
 * Build the solution in **Release** mode,
 * Navigate to the root of the project, you can see a folder called **OutputAssemblies** which contains all the Phidgets Interface Assets.
 
-# How to use Phidgets Interface Assets?
 
-To be able to add Phidgets Interface Assets in IntuiFace Composer, follow these steps: 
-* Copy the **Phidgets** folder from the **OutputAssemblies** to the path "[Drive]:\Users\\[UserName]\Documents\IntuiFace\Interface Assets",
-* Launch **IntuiFace Composer**,
-* Add an Interface Asset and when you enter "Phidget" in the search bar, you can see the **Phidget 8-8-8** Interface Asset.
-
-
-
-See more information on our support webpage: [using Phidgets within IntuiFace](http://support.intuilab.com/kb/a-quick-overview/using-phidgets-within-intuiface)
 
 -----
 
