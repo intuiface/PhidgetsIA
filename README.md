@@ -23,6 +23,7 @@ To be able to add Phidgets Interface Assets in Intuiface Composer, follow these 
 * Close all **Intuiface Composer** running instances. 
 * Download the [latest released package here](https://github.com/intuilab/PhidgetsIA/releases)
 * Extract the archive and copy the **Phidgets** folder to the path "[Drive]:\Users\\[UserName]\Documents\Intuiface\Interface Assets",
+* Install the **driver** from [Phidgets.com](https://www.phidgets.com/docs21/OS_-_Windows)
 * Launch **Intuiface Composer**,
 * **Add an Interface Asset** and when you enter "Phidget" in the search bar, you can see the **Phidget 8-8-8** Interface Asset.
 
